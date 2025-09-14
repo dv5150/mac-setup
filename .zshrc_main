@@ -1,12 +1,14 @@
-export PATH="/opt/homebrew/bin:${PATH}"
-export TERM=xterm-256color
-export EZA_CONFIG_DIR=~/.config/eza
+# Keep the line if you have ______ installed:
 
-eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
+export PATH="/opt/homebrew/bin:${PATH}" # Homebrew
+export TERM=xterm-256color # Ghostty
+export EZA_CONFIG_DIR=~/.config/eza # Eza
 
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+eval "$(starship init zsh)" # Starship
+eval "$(zoxide init zsh)" # Zoxide
+
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh # Zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # Zsh
 
 unalias -a
 
@@ -30,9 +32,9 @@ alias dexec='docker compose exec -it'
 alias art='php artisan'
 
 # Open various config files
-alias editeza="open -e ~/.config/eza/theme.yml"
-alias editstarship="open -e ~/.config/starship.toml"
-alias editghostty="open -e ~/.config/ghostty/config"
-alias editzsh="open -e ~/.zshrc_main"
+alias editeza="open -e ~/.config/eza/theme.yml" # Eza
+alias editstarship="open -e ~/.config/starship.toml" # Starship
+alias editghostty="open -e ~/.config/ghostty/config" # Ghostty
+alias editzsh="open -e ~/.zshrc_main" # Zsh
 
 cd ~/www && clear

@@ -39,6 +39,6 @@
     fi
     ```
 
-7. **Clone this repo and copy the config files to ~/.config**
+7. **Clone this repo and copy the dotfiles and config files to `~/` and `~/.config/` respectively**
     
-    Check all the configs and edit as you need.
+8. **Open ~/.zshrc_main and remove all the lines for software you're not using**

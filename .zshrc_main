@@ -34,3 +34,5 @@ alias editeza="open -e ~/.config/eza/theme.yml"
 alias editstarship="open -e ~/.config/starship.toml"
 alias editghostty="open -e ~/.config/ghostty/config"
 alias editzsh="open -e ~/.zshrc_main"
+
+cd ~/www && clear

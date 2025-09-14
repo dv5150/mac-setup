@@ -1,0 +1,30 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.1",
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x8004",
+          "productName" : "BenQ ZOWIE Gaming Mouse",
+          "vendorID" : "0x4a5"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.9,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 10
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    }
+  ]
+}

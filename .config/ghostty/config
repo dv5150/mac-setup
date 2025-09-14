@@ -1,0 +1,9 @@
+shell-integration-features = no-cursor
+theme = Monokai Pro Ristretto
+window-padding-x = 12
+cursor-style = underline
+cursor-style-blink = false
+background-opacity = 0.95
+background-blur = true
+font-family = MesloLGS Nerd Font Mono
+font-size = 16

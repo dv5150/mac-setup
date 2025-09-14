@@ -1,2 +1,8 @@
-*
+/*
 !.gitignore
+!/.config
+/.config/*
+!/.config/eza
+!/.config/ghostty
+!/.config/linearmouse
+!/.config/starship.toml

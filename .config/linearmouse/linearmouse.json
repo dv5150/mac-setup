@@ -15,15 +15,12 @@
         "disableAcceleration" : true
       },
       "scrolling" : {
-        "acceleration" : {
-          "vertical" : 1
-        },
+        "acceleration" : 1,
         "distance" : {
+          "horizontal" : 3,
           "vertical" : 10
         },
-        "speed" : {
-          "vertical" : 0
-        }
+        "speed" : 0
       }
     }
   ]

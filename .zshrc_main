@@ -1,0 +1,36 @@
+export PATH="/opt/homebrew/bin:${PATH}"
+export TERM=xterm-256color
+export EZA_CONFIG_DIR=~/.config/eza
+
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+unalias -a
+
+# Zoxide
+alias cd="z"
+
+# Eza
+alias ls="eza --icons"
+alias ll="eza -l --icons"
+alias la="eza -la --icons"
+
+# Docker
+alias dcu='docker compose up'
+alias dcd='docker compose down'
+alias dps='docker ps'
+alias dcps='docker compose ps'
+alias dcr='docker compose run --rm'
+alias dexec='docker compose exec -it'
+
+# Laravel
+alias art='php artisan'
+
+# Open various config files
+alias editeza="open -e ~/.config/eza/theme.yml"
+alias editstarship="open -e ~/.config/starship.toml"
+alias editghostty="open -e ~/.config/ghostty/config"
+alias editzsh="open -e ~/.zshrc_main"

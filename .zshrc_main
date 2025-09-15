@@ -31,10 +31,16 @@ alias dexec='docker compose exec -it'
 # Laravel
 alias art='php artisan'
 
-# Open various config files
-alias editeza="open -e ~/.config/eza/theme.yml" # Eza
-alias editstarship="open -e ~/.config/starship.toml" # Starship
-alias editghostty="open -e ~/.config/ghostty/config" # Ghostty
-alias editzsh="open -e ~/.zshrc_main" # Zsh
+# Open various config files WITH coteditor
+alias editeza="cot ~/.config/eza/theme.yml" # Eza
+alias editstarship="cot ~/.config/starship.toml" # Starship
+alias editghostty="cot ~/.config/ghostty/config" # Ghostty
+alias editzsh="cot ~/.zshrc_main" # Zsh
+
+# Open various config files WITHOUT coteditor
+# alias editeza="open -e ~/.config/eza/theme.yml" # Eza
+# alias editstarship="open -e ~/.config/starship.toml" # Starship
+# alias editghostty="open -e ~/.config/ghostty/config" # Ghostty
+# alias editzsh="open -e ~/.zshrc_main" # Zsh
 
 cd ~/www && clear

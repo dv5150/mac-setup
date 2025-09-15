@@ -43,4 +43,4 @@ alias editzsh="cot ~/.zshrc_main" # Zsh
 # alias editghostty="open -e ~/.config/ghostty/config" # Ghostty
 # alias editzsh="open -e ~/.zshrc_main" # Zsh
 
-cd ~/www && clear
+cd ~ && clear

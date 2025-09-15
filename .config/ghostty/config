@@ -5,5 +5,5 @@ cursor-style = underline
 cursor-style-blink = false
 background-opacity = 0.95
 background-blur = true
-font-family = MesloLGS Nerd Font Mono
+font-family = JetBrainsMono NFM ExtraBold
 font-size = 16

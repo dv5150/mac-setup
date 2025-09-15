@@ -54,7 +54,7 @@
     ```
 
     Copy:
-    ```json
+    ```
     {
         "\UF729"  = moveToBeginningOfLine:;
         "\UF72B"  = moveToEndOfLine:;

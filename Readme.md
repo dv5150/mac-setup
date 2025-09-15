@@ -40,5 +40,29 @@
     ```
 
 7. **Clone this repo and copy the dotfiles and config files to `~/` and `~/.config/` respectively**
-    
+
 8. **Open ~/.zshrc_main and remove all the lines for software you're not using**
+
+9. **Make [Home], [End], [Page Up] and [Page Down] keys behave like on Windows**
+
+    ```bash
+    mkdir ~/Library/KeyBindings/
+    ```
+
+    ```bash
+    touch ~/Library/KeyBindings/DefaultKeyBinding.dict
+    ```
+
+    Copy:
+    ```json
+    {
+        "\UF729"  = moveToBeginningOfLine:;
+        "\UF72B"  = moveToEndOfLine:;
+        "$\UF729" = moveToBeginningOfLineAndModifySelection:;
+        "$\UF72B" = moveToEndOfLineAndModifySelection:;
+        "\UF72C" = pageUp:;
+        "\UF72D" = pageDown:;
+        "$\UF72C" = pageUpAndModifySelection:;
+        "$\UF72D" = pageDownAndModifySelection:;
+    }
+    ```

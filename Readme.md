@@ -24,7 +24,7 @@
      ```bash
      brew install --cask ghostty font-jetbrains-mono-nerd-font && brew install starship zoxide eza zsh-autosuggestions zsh-syntax-highlighting && \
      brew install --cask herd sequel-ace docker-desktop phpstorm coteditor hoppscotch mattermost github && brew install git && \
-     brew install --cask firefox spotify shottr maccy linearmouse dropshelf keepassxc yubico-authenticator pearcleaner && \
+     brew install --cask brave-browser spotify shottr maccy linearmouse dropshelf keepassxc yubico-authenticator pearcleaner && \
      brew install --cask proton-pass proton-drive proton-mail protonvpn standard-notes
      ```
 

@@ -10,6 +10,9 @@ eval "$(zoxide init zsh)" # Zoxide
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh # Zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # Zsh
 
+# Enable selectable directories on cd command
+autoload -Uz compinit && compinit && zstyle ':completion:*' menu select # Zsh
+
 unalias -a
 
 # Zoxide

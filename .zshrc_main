@@ -23,6 +23,9 @@ alias ls="eza --icons"
 alias ll="eza -l --icons"
 alias la="eza -la --icons"
 
+# Bat
+alias cat="bat --theme zenburn"
+
 # Docker
 alias dcu='docker compose up'
 alias dcd='docker compose down'

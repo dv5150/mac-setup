@@ -22,7 +22,7 @@
     - Copy line 3 for other software
     - Copy line 4 for Proton software
      ```bash
-     brew install --cask ghostty font-jetbrains-mono-nerd-font && brew install starship zoxide eza zsh-autosuggestions zsh-syntax-highlighting && \
+     brew install --cask ghostty font-jetbrains-mono-nerd-font && brew install starship zoxide eza bat zsh-autosuggestions zsh-syntax-highlighting && \
      brew install --cask herd sequel-ace docker-desktop phpstorm coteditor hoppscotch mattermost github && brew install git && \
      brew install --cask brave-browser spotify shottr maccy linearmouse keepassxc yubico-authenticator pearcleaner && \
      brew install --cask proton-pass proton-drive proton-mail protonvpn standard-notes

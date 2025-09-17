@@ -6,7 +6,7 @@
 
 - **Configure Finder to always open in list view**
 
-    - Open finder
+    - Open Finder
     - `Cmd` + `J`
     - Check the top two check boxes (Always open in list view, browse in list view)
     - Click "Use as Defaults"

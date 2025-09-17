@@ -24,7 +24,7 @@ alias ll="eza -l --icons"
 alias la="eza -la --icons"
 
 # Bat
-alias cat="bat --theme zenburn"
+alias cat="bat --theme Nord"
 
 # Docker
 alias dcu='docker compose up'

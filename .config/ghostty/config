@@ -1,10 +1,10 @@
 shell-integration-features = no-cursor
-theme = Monokai Pro Ristretto
+theme = Catppuccin Frappe
 window-padding-x = 12
 cursor-style = underline
 cursor-style-blink = false
-background-opacity = 0.95
-background-blur = true
+background-opacity = 0.85
+background-blur = 100
 font-family = JetBrainsMono NFM Bold
 font-size = 16
-split-divider-color = #3d3328
+split-divider-color = #45475a

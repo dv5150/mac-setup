@@ -1,15 +1,11 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](red)\
 $os\
 $username\
-[](bg:peach fg:red)\
 $directory\
-[](bg:yellow fg:peach)\
 $git_branch\
 $git_status\
-[](fg:yellow bg:green)\
 $c\
 $rust\
 $golang\
@@ -19,11 +15,8 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:green bg:sapphire)\
 $conda\
-[](fg:sapphire bg:lavender)\
 $time\
-[ ](fg:lavender)\
 $cmd_duration\
 $line_break\
 $character"""
@@ -32,7 +25,7 @@ palette = 'catppuccin_mocha'
 
 [os]
 disabled = false
-style = "bg:red fg:crust"
+style = "fg:red"
 
 [os.symbols]
 Windows = ""
@@ -57,15 +50,13 @@ RedHatEnterprise = "󱄛"
 
 [username]
 show_always = true
-style_user = "bg:red fg:crust"
-style_root = "bg:red fg:crust"
+style_user = "fg:red"
+style_root = "fg:red"
 format = '[ $user]($style)'
 
 [directory]
-style = "bg:peach fg:crust"
-format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
+style = "fg:peach"
+format = "[ $path]($style)"
 
 [directory.substitutions]
 "Documents" = "󰈙 "
@@ -76,12 +67,11 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:yellow"
-format = '[[ $symbol $branch ](fg:crust bg:yellow)]($style)'
+style = "fg:yellow"
+format = '[[ $symbol $branch ](fg:yellow)]($style)'
 
 [git_status]
-style = "bg:yellow"
-format = '[[($all_status$ahead_behind )](fg:crust bg:yellow)]($style)'
+format = '[[($all_status$ahead_behind )](fg:lavender)]($style)'
 
 [nodejs]
 disabled = true
